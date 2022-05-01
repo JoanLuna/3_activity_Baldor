@@ -7,22 +7,21 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class primer_activity extends AppCompatActivity {
 
-    Button primer_a, segundo_a, tercer_a;
+    Button regresar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        primer_a = (Button)findViewById(R.id.primer_boton);
-        primer_a.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_primer);
+        regresar = (Button)findViewById(R.id.regresar);
+        regresar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this, primer_activity.class);
+                Intent i = new Intent(primer_activity.this, MainActivity.class);
                 startActivity(i);
             }
         });
-
     }
 }

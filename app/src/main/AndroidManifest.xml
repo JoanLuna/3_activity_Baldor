@@ -9,6 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.3_activity_Baldor">
+        <activity
+            android:name=".tercer_activity"
+            android:exported="false" />
+        <activity
+            android:name=".segundo_activity"
+            android:exported="false" />
+        <activity
+            android:name=".primer_activity"
+            android:exported="false" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

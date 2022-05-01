@@ -7,12 +7,83 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:fontFamily="sans-serif-light"
+        android:text="Activitys"
+        android:textColor="@color/black"
+        android:textSize="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.132" />
+
+    <Button
+        android:id="@+id/primer_boton"
+        android:layout_width="220dp"
+        android:layout_height="61dp"
+
+        android:layout_marginTop="64dp"
+        android:backgroundTint="#9d1111"
+        android:fontFamily="sans-serif-light"
+        android:text="Primero"
+
+        android:textSize="30dp"
+        app:cornerRadius="30dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.004" />
+
+    <Button
+        android:id="@+id/segundo_boton"
+
+        android:layout_width="220dp"
+        android:layout_height="61dp"
+        android:backgroundTint="#9d1111"
+        android:fontFamily="sans-serif-light"
+        android:text="SEGUNDO"
+        android:textSize="30dp"
+        app:cornerRadius="30dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/primer_boton"
+        app:layout_constraintVertical_bias="0.138" />
+
+    <Button
+        android:id="@+id/tercer_boton"
+
+        android:layout_width="220dp"
+        android:layout_height="61dp"
+        android:backgroundTint="#9d1111"
+        android:fontFamily="sans-serif-light"
+        android:text="TERCERO"
+        android:textSize="30dp"
+        app:cornerRadius="30dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/segundo_boton"
+        app:layout_constraintVertical_bias="0.215" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Creado Por El Equipo BALDOR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tercer_boton" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
