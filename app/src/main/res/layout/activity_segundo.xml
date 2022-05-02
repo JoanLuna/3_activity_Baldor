@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     app:layoutDescription="@xml/activity_segundo_scene"
     tools:context=".segundo_activity">
 
@@ -14,8 +15,8 @@
         android:layout_width="220dp"
         android:layout_height="61dp"
         android:fontFamily="sans-serif-light"
-        android:text="Regresar"
-        android:textColor="#9d1111"
+        android:text="REGRESAR"
+        android:textColor="#00057B"
         android:textSize="30dp"
         app:cornerRadius="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -25,7 +26,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.046"
-        app:strokeColor="#9d1111" />
+        app:strokeColor="#00A8FF" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -146,7 +147,7 @@
         android:layout_width="379dp"
         android:layout_height="137dp"
         android:layout_marginBottom="4dp"
-        android:text="FIN"
+        android:text="Y Muchos Más!"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="40dp"

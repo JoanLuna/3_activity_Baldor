@@ -5,6 +5,7 @@
     android:id="@+id/regresar"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondomarino"
     tools:context=".tercer_activity">
 
     <Button
@@ -15,7 +16,7 @@
         android:layout_height="61dp"
         android:fontFamily="sans-serif-light"
         android:text="Regresar"
-        android:textColor="#9d1111"
+        android:textColor="#00057B"
         android:textSize="30dp"
         app:cornerRadius="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -25,5 +26,47 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.046"
-        app:strokeColor="#9d1111" />
+        app:strokeColor="#00A8FF" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="334dp"
+        android:layout_height="111dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Quieres Ayudar a Proteger Los Oceanos Del Mundo?"
+        android:textColor="@color/black"
+        android:textSize="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.22" />
+
+    <Button
+        android:id="@+id/boton_correo"
+        android:layout_width="337dp"
+        android:layout_height="120dp"
+        android:text="Mandar Correo Para Tener Más Información"
+        android:backgroundTint="#00A8FF"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.431" />
+
+    <Button
+        android:id="@+id/boton_web"
+        android:layout_width="330dp"
+        android:layout_height="124dp"
+        android:text="Visita Nuestra Pagina Web"
+        android:backgroundTint="#00A8FF"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.69" />
 </androidx.constraintlayout.widget.ConstraintLayout>

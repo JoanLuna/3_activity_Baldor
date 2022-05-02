@@ -4,16 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondomarino"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-light"
-        android:text="Activitys"
-        android:textColor="@color/black"
-        android:textSize="50dp"
+        android:layout_width="297dp"
+        android:layout_height="93dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Protegiendo Los Océanos Del Mundo"
+        android:textColor="#00057B"
+        android:textSize="35dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -27,7 +28,7 @@
         android:layout_height="61dp"
 
         android:layout_marginTop="64dp"
-        android:backgroundTint="#9d1111"
+        android:backgroundTint="#00A8FF"
         android:fontFamily="sans-serif-light"
         android:text="Primero"
 
@@ -45,10 +46,10 @@
 
         android:layout_width="220dp"
         android:layout_height="61dp"
-        android:backgroundTint="#9d1111"
+        android:backgroundTint="#00A8FF"
         android:fontFamily="sans-serif-light"
-        android:text="SEGUNDO"
-        android:textSize="30dp"
+        android:text="ANIMALES"
+        android:textSize="20dp"
         app:cornerRadius="30dp"
 
         app:layout_constraintBottom_toBottomOf="parent"
@@ -63,10 +64,10 @@
 
         android:layout_width="220dp"
         android:layout_height="61dp"
-        android:backgroundTint="#9d1111"
+        android:backgroundTint="#00A8FF"
         android:fontFamily="sans-serif-light"
-        android:text="TERCERO"
-        android:textSize="30dp"
+        android:text="Quiero Ayudar"
+        android:textSize="20dp"
         app:cornerRadius="30dp"
 
         app:layout_constraintBottom_toBottomOf="parent"
