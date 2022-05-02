@@ -5,8 +5,9 @@
       <map>
         <entry key="..\:/Users/jluna/AndroidStudioProjects/3_activity_Baldor/app/src/main/res/layout/activity_main.xml" value="0.24954710144927536" />
         <entry key="..\:/Users/jluna/AndroidStudioProjects/3_activity_Baldor/app/src/main/res/layout/activity_primer.xml" value="0.25" />
-        <entry key="..\:/Users/jluna/AndroidStudioProjects/3_activity_Baldor/app/src/main/res/layout/activity_segundo.xml" value="0.29375" />
+        <entry key="..\:/Users/jluna/AndroidStudioProjects/3_activity_Baldor/app/src/main/res/layout/activity_segundo.xml" value="0.25" />
         <entry key="..\:/Users/jluna/AndroidStudioProjects/3_activity_Baldor/app/src/main/res/layout/activity_tercer.xml" value="0.29375" />
+        <entry key="..\:/Users/jluna/AndroidStudioProjects/3_activity_Baldor/app/src/main/res/layout/recycler_motionscene.xml" value="0.33" />
       </map>
     </option>
   </component>
