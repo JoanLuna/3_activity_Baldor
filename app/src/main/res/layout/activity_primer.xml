@@ -4,25 +4,79 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondomarino"
     tools:context=".primer_activity">
 
     <Button
         android:id="@+id/regresar"
 
+        style="?attr/materialButtonOutlinedStyle"
         android:layout_width="220dp"
         android:layout_height="61dp"
-        style="?attr/materialButtonOutlinedStyle"
-        app:strokeColor="#9d1111"
-        android:textColor="#9d1111"
         android:fontFamily="sans-serif-light"
         android:text="Regresar"
+        android:textColor="#00057B"
         android:textSize="30dp"
         app:cornerRadius="30dp"
-
         app:layout_constraintBottom_toBottomOf="parent"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.172"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.046" />
+        app:layout_constraintVertical_bias="0.046"
+        app:strokeColor="#00A8FF" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="351dp"
+        android:layout_height="259dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Los océanos son extensos, pero no son inmunes a la influencia del ser humano. Ya hemos alterado o destruido muchos ecosistemas marinos y hemos llevado especies de millones de años de antigüedad al borde de la extinción. Según un estudio publicado en Science, menos del 4% de los océanos permanece inalterado por la actividad humana."
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.247" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="352dp"
+        android:layout_height="71dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Crees que exista una isla de basura del tamaño de Texas?"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.559"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.569" />
+
+    <Switch
+        android:id="@+id/switch_1"
+        android:layout_width="211dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="88dp"
+        android:scrollbarSize="8dp"
+        android:text="Existe?"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="128dp"
+        android:layout_height="101dp"
+        app:layout_constraintBottom_toTopOf="@+id/switch_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:srcCompat="@drawable/texas" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

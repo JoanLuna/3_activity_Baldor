@@ -32,7 +32,7 @@
         android:id="@+id/textView9"
         android:layout_width="334dp"
         android:layout_height="111dp"
-        android:fontFamily="sans-serif-condensed-light"
+        android:fontFamily="sans-serif-condensed-medium"
         android:text="Quieres Ayudar a Proteger Los Oceanos Del Mundo?"
         android:textColor="@color/black"
         android:textSize="32dp"
